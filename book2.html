@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Introduction - Page 2</title>
+    <link rel="icon" href="html 5.png" type="Image/png">
+    <style>
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(40deg, rgb(233, 225, 175)10%, rgb(159, 173, 149)25%,
+    rgb(179, 174, 129)45%, rgb(124, 136, 103)70%, rgb(118, 138, 133)95%);
+    font-family: cursive;
+    font-size: 20px;
+}
+.page{
+    height:100vh;
+}
+
+h1{
+color: white;
+text-align: center;
+}
+
+p{
+color: chocolate;
+font-size: larger;
+margin: 20px;
+padding: 20px;
+}
+
+.Que{
+padding: 10px;
+}
+
+.Q{
+color: red;
+padding: 10px;
+}
+
+.Ans{
+padding: 10px;
+}
+
+.A{
+color: green;
+padding: 10px;
+}
+a{
+    text-decoration: none;
+}    
+</style>
+</head>
+<body>
+    <div class="page2">
+        <h1>HTML Introduction - (Page 2)</h1>
+        <div class="Que">
+            <span class="Q">Q - </span>How to connect all html file in one page? 
+        </div>
+        <div class="Ans">
+            <span class="A">A - </span>To connect multiple html files using <a> tag.
+        </div>
+        <p>Buttons</p>
+        <button class="btn">Toggle now</button>
+        <button class="btn">Fade</button>
+        <div id = "lo" class="lorem">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum dolores blanditiis quos culpa distinctio. Molestias quos ab numquam consequatur commodi. Cupiditate natus quo inventore obcaecati magni nemo, vel perspiciatis laboriosam quasi perferendis iste minima officia, incidunt in officiis. Totam laudantium quisquam possimus officiis modi blanditiis hic. Iure, delectus reprehenderit dolore vitae veniam, quidem, ex odio nemo nulla saepe voluptates unde modi vel aut quaerat esse! Veniam sapiente quas in, optio repellendus fugiat. Perferendis repellat ea, nesciunt laudantium ducimus provident nam maxime fugit? Ipsum sequi illo laudantium ea sit in, amet eum porro deleniti velit molestias commodi reprehenderit quaerat fuga distinctio. Vel iusto non ab aperiam laudantium quod repudiandae illo alias. Culpa nihil similique corrupti quis illum quidem assumenda nobis sint sapiente sed maiores, eum vero minus nisi doloribus, odit suscipit enim aperiam voluptates non tempora repellendus expedita. Unde iusto magnam laudantium? Tempora error dolorem, iusto voluptatem fugiat sint veniam nemo hic, eius iure consequatur natus? Quisquam dolore, minus sapiente, corporis nemo perspiciatis porro tenetur tempore, amet culpa ratione beatae dicta iure! Molestias soluta omnis voluptatibus possimus incidunt id, laboriosam culpa voluptas obcaecati repellat maiores adipisci porro at officia eveniet maxime beatae rerum ipsam, et nobis. Similique, perferendis! Suscipit odio rem fugiat cupiditate nisi consequuntur illo. Voluptatem asperiores sunt architecto possimus eum hic perferendis atque sint tempora. Explicabo nisi delectus, voluptates ullam repellat saepe quam optio animi natus nesciunt sunt minima deleniti amet quod beatae! Architecto reiciendis nihil ipsam fugiat itaque eligendi. Nam dicta praesentium possimus, cumque sint corrupti facilis mollitia! Pariatur sint, facilis ducimus dignissimos libero repellat hic, nulla ea neque, necessitatibus praesentium iste optio labore sed dolores. Earum, facilis inventore quis tempore dolor suscipit molestias provident mollitia quod deserunt, magnam accusamus rerum ipsa sit rem optio laudantium, ex quo odio natus. Et, similique ullam animi ipsa, dolorem tempora dolore nostrum quos aliquam autem sunt asperiores fuga voluptas quibusdam quis id maxime velit repudiandae soluta tenetur, odio mollitia? Quod perspiciatis nobis reprehenderit voluptas praesentium sit ut ipsam molestias accusantium, vitae accusamus unde sed cupiditate earum. Numquam voluptatem dicta saepe, minima quis perspiciatis ratione similique quam eaque vel accusamus pariatur culpa iure nobis suscipit iusto, quae ea! Nihil, voluptatum similique! Eveniet maxime et asperiores odio totam a, voluptatibus eaque excepturi, nulla alias iusto ratione cumque veritatis molestias tenetur praesentium! Saepe harum, eveniet omnis laboriosam possimus amet autem in, at perspiciatis nisi, voluptatum illo. Doloremque voluptates numquam perspiciatis nulla rem nam quis minus, autem tenetur tempora similique laborum asperiores expedita ab quaerat aliquid iusto architecto ducimus! Consectetur totam omnis non voluptatem optio fugiat molestias blanditiis nesciunt modi porro? Ipsum sed ducimus officiis alias deserunt quam repellat repudiandae voluptatibus eius esse aut repellendus, velit odio nisi eligendi, quasi enim sint perspiciatis. Delectus aut sequi minus vero iure fugiat repellat non reiciendis commodi repudiandae alias, dolores officia. Quas ipsum quasi molestiae nobis aspernatur natus magnam voluptatem odio saepe? A iste unde, sunt nisi, qui tenetur quo quia, harum quibusdam cum totam doloremque dolor! Veritatis sapiente ratione ullam cupiditate sit illo iste quod odit quos.</div>
+        <a href="book.html">1</a>
+    </div>
+    <form>
+        <input id="inp" type="text">
+        <textarea id="ta"> this is your value text area </textarea>
+    </form>
+    
+    <Script src="JS/jquery-3.7.1.min.js"></Script>
+    <script>
+        $('.btn').click(function(){
+        $('.lorem').toggle(1000);
+    });
+        $('.btn').click(function(){
+        $('.lorem').fade(1000);
+    });
+
+    </script>
+</body>
+</html>

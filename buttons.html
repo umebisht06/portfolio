@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botton Test</title>
+    <style>
+        .box{
+            width: 200px;
+            height: 200px;
+            border: 2px black solid;
+            margin: auto;
+            margin-top: 20px;
+            position: relative;
+        }
+        .Spider{
+            width: 200px;
+            font-size: 20px;
+            border: 2px black solid;
+            text-align: center;
+            background-color: rgba(0,0,0,0.6);
+            color: white;
+            left: -3px;
+            bottom: -30px;
+            position: absolute;
+            opacity: 0;
+            transition: 1s;
+        }
+        .Spider1{
+            width: 200px;
+            font-size: 20px;
+            border: 2px black solid;
+            text-align: center;
+            background-color: rgba(0,0,0,0.6);
+            color: white;
+            left: -3px;
+            bottom: -40px;
+            position: absolute;
+            opacity: 0;
+            transition: 1s;
+        }
+        .box:hover .Spider{
+            bottom: 0px;
+            opacity: 1;
+        }
+        .box:hover .Spider1{
+            bottom: 0px;
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <img src="Img/ironman.jpeg" width="100%" height="100%"/>
+        <input type="Botton" name="" value="Spider Man" class="Spider"/>
+    </div>
+    <div class="box">
+        <img src="Img/ironman1.jpeg" width=" 100%" height="100%" alt=""/>
+        <input type="Botton" name="" value="Spider Man 1" class="Spider1"/>
+    </div>
+</body>
+</html>``

@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forget Password</title>
+    <link rel="icon" href="brawl.webp" type="Image.webp">
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: rgba(149, 100, 200, 1);
+    font-size: 20px;
+    font-family: cursive;
+}
+h1{
+    padding:10px;
+    font-weight: 100;
+}
+
+.container{
+    width: 400px;
+    height: 500px;
+    border-radius: 5px;
+    background-color: antiquewhite;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+}
+label{
+    font-weight: 100;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 200px;
+    height: 25px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-family: cursive;
+    font-weight: 100;
+}
+.button{
+    width: 100px;
+    height: 25px;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+    overflow: hidden;
+    margin-top: 20px;
+}
+a{
+    text-decoration: none;
+}
+    </style>
+</head>
+<body>
+    <form id="ForgetPassword" action="">
+        <fieldset>
+            <div class="container">
+                <h1>Forget Password</h1>
+                <label for="UserName">User Name:</label>
+                <input type="text" name="UserName" id="UserName" autocomplete="given-username" placeholder="Enter your username here">                
+                <br>
+                <label for="phone">Phone:</label>
+                <input type="number" name="Number" id="Number" autocomplete="given-number" placeholder="Enter your number here">
+                <br>
+                <button type="button" class="button" id="button">Get OTP</button>
+                <br>
+                <label for="OTP">Enter OTP:</label>
+                <input type="OTP" name="OTP" id="OTP" autocomplete="given-OTP" placeholder="Enter OTP here" required="">
+                <br>
+                <button type="button" class="button" onsubmit="ForgetPassword()">Verify OTP</button>
+                <br>
+                <a href="set.html">Set Password</a>
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>
